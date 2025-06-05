@@ -146,7 +146,7 @@ header img {
 
 
 
-/* Sobre - - - - - - - - - */
+/* - - - - - - - - - Sobre - - - - - - - - -  */
 #Sobre {
     display: flex;
     align-items: center;
@@ -177,7 +177,7 @@ header img {
 
 }
 
-/* --------parallaxxxx--------- */
+/* --------parallaxxxx-------- */
 
 #parallax {
     height: 250px;
@@ -275,7 +275,7 @@ header img {
 }
 
 
-/* ------------------------Cases---------------------- */
+/* ------------------------Cases------------------------ */
 
 #cases h2 {
     margin-right: 5px;
@@ -301,7 +301,7 @@ header img {
 
 }
 
-/* ---------------------Contato------------------ */
+/* ---------------------Contato--------------------- */
 
 #contato {
     text-align: center;
@@ -403,11 +403,13 @@ header img {
 
 }
 
-.campo input::placeholder, .campo-descrição textarea::placeholder {
+.campo input::placeholder,
+.campo-descrição textarea::placeholder {
     color: #A0A0A0;
 }
 
-.campo input:focus, .campo-descrição textarea:focus {
+.campo input:focus,
+.campo-descrição textarea:focus {
     outline: 2px solid var(--verde-pixelV);
 }
 
@@ -433,5 +435,58 @@ header img {
 
 #contato form button:hover {
     background-color: var(--verde-pixelV);
+
+}
+
+/* --------------------footer-------------------- */
+
+footer {
+    height: 250px;
+    background-image: url(./img/footer.png);
+}
+
+footer img {
+    height: 90px;
+}
+
+footer .container-grid {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.redes-sociais p{
+    color: var(--branco);
+
+    font-family: "recursive", sans-linear;
+    font-size: 24px;
+
+}
+
+.icones-redes {
+    width: 240px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icones-redes a{
+    color: var(--branco);
+}
+
+.icones-redes a:hover{
+    color: var(--verde-pixelV);
 
 }
